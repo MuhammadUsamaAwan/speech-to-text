@@ -10,6 +10,9 @@ dependencies:
     version: 1.5.10
 
 devDependencies:
+  '@types/dom-speech-recognition':
+    specifier: ^0.0.1
+    version: 0.0.1
   typescript:
     specifier: ^5.0.2
     version: 5.2.2
@@ -220,6 +223,10 @@ packages:
   /@picocss/pico@1.5.10:
     resolution: {integrity: sha512-+LafMsrwPxXQMk6sI///TmSInCwwZmq+K7SikyL3N/4GhhwzyPC+TQLUEqmrLyjluR+uIpFFcqjty30Rtr6GxQ==}
     dev: false
+
+  /@types/dom-speech-recognition@0.0.1:
+    resolution: {integrity: sha512-udCxb8DvjcDKfk1WTBzDsxFbLgYxmQGKrE/ricoMqHRNjSlSUCcamVTA5lIQqzY10mY5qCY0QDwBfFEwhfoDPw==}
+    dev: true
 
   /esbuild@0.18.20:
     resolution: {integrity: sha512-ceqxoedUrcayh7Y7ZX6NdbbDzGROiyVBgC4PriJThBKSVPWnnFHZAkfI1lJT8QFkOwH4qOS2SJkS4wvpGl8BpA==}
