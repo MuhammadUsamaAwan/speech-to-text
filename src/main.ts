@@ -17,14 +17,6 @@ recognition.addEventListener('result', e => {
 
   p.innerText = text;
   main.appendChild(p);
-
-  if (e.results[0].isFinal) {
-    const p = document.createElement('p');
-    p.innerText = text;
-    main.appendChild(p);
-  }
-
-  console.log(text);
 });
 
 recognition.addEventListener('end', () => {
